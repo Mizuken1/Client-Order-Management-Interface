@@ -1,6 +1,7 @@
-# Here is preview of the system
+# PREVIEW
 
 *username: user*
+
 *password: pass*
 
 **https://skmelectronics.netlify.app**
