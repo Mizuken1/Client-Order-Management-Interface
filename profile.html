@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header">Profile</h1>
+            
+        </header>
+
+        <main>
+            <section class="user-info">
+                <h2>User Information</h2>
+                <div class="info-card">
+                    <div class="info-item"><strong>Name:</strong> John Doe</div>
+                    <div class="info-item"><strong>Email:</strong> johndoe@example.com</div>
+                    <div class="info-item"><strong>Phone:</strong> +123 456 7890</div>
+                </div>
+            </section>
+
+            <section class="account-settings">
+                <h2>Account Settings</h2>
+                <div class="settings-card">
+                    <div class="setting-item">
+                        <label for="email">Update Email</label>
+                        <input type="email" id="email" placeholder="Enter new email">
+                    </div>
+                    <div class="setting-item">
+                        <label for="phone">Update Phone</label>
+                        <input type="text" id="phone" placeholder="Enter new phone number">
+                    </div>
+                </div>
+            </section>
+
+            <section class="change-password">
+                <h2>Change Password</h2>
+                <form class="password-form">
+                    <div class="form-item">
+                        <label for="current-password">Current Password</label>
+                        <input type="password" id="current-password" placeholder="Enter current password">
+                    </div>
+                    <div class="form-item">
+                        <label for="new-password">New Password</label>
+                        <input type="password" id="new-password" placeholder="Enter new password">
+                    </div>
+                    <div class="form-item">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" placeholder="Confirm new password">
+                    </div>
+                    <button type="submit" class="btn">Update Password</button>
+                    <nav>
+                        <a href="dashboard.html" class="nav-link">Back to Dashboard</a>
+                        
+                    </nav>
+                    
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Profile Page Inc.</p>
+        </footer>
+    </div>
+</body>
+</html>
