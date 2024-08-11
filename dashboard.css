@@ -12,6 +12,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+
 }
 
 header {
@@ -25,6 +26,7 @@ header {
     align-items: center;
     justify-content: center;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 header h1 {
@@ -50,7 +52,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color:#2f3640;
+    background-color: #4e54c8;
     transform: translateY(-2px);
 }
 
@@ -71,6 +73,7 @@ main {
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 3rem;
 }
 
 .card {
